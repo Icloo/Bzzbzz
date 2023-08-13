@@ -1,0 +1,338 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GENERAL */
+
+.espaceur {
+    height: 5vh;
+}
+
+.separateur {
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 5vh;
+}
+
+.centrer {
+    text-align: center;
+}
+
+/* HEADER */
+
+nav {
+    background-color: #111417;
+    color: white;
+}
+
+/* ACCUEIL */
+
+.accueil {
+    color: white;
+    background-color: #111417;
+}
+
+.accueil_hero {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, #131416 100%), url(../img/hero_accueil.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: #CE820D;
+}
+
+.titre {
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+    font-size: 7vh;
+}
+
+.sous_titre {
+    text-align: center;
+    margin: 0;
+    font-size: 3vh;
+}
+
+.contenu_1 {
+    background-color: #131416;
+    margin-bottom: -10px;
+}
+
+.contenu_2 {
+    background-color: #5F6F52;
+}
+
+.liste_service {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.image_service {
+    width: 15vw;
+    border-radius: 20px;
+}
+
+.accueil_a_propos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.accueil_a_propos_gauche {
+    width: 35%;
+}
+
+
+.accueil_a_propos_droite {
+    position: relative;
+    margin-right: 5vw;
+}
+
+
+.accueil_a_propos_photo_principale {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px red solid;
+}
+
+.accueil_a_propos_photo_secondaire {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 80px;
+    left:-180px;
+    border: 1px blue solid;
+
+}
+
+.accueil_a_propos_photo_secondaire_2 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 120px;
+    left: 120px;
+    border: 1px green solid;
+}
+
+.accueil_a_propos_photo_secondaire_3 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: -120px;
+    left: 90px;
+    border: 1px yellow solid;
+}
+
+.accueil_liste_posts ul {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 0.5rem;
+    padding: 1rem;
+
+}
+
+.accueil_liste_posts ul li {
+    text-align: center;
+}
+
+
+
+/* QUI SOMMES NOUS */
+.qsn {
+    color: white;
+    background-color: #111417;
+}
+
+.hero_qsn {
+    background-image: url('../img/hero_qsn.png');
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: -1px;
+}
+
+.qsn_missions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qsn_missions_gauche {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.qsn_missions_droite {
+    width: 40%;
+}
+
+.qsn_missions_photo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.qsn_missions_photo_haut {
+    width: 45%;
+}
+
+.qsn_famille {
+    background-color: #6C743C;
+}
+
+.qsn_famille_liste {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.qsn_famille_selfie {
+    border-radius: 50%;
+}
+
+.qsn_magasin {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qsn_magasin_gauche {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.qsn_magasin_droite {
+    width: 50%;
+    margin-right: 5%;
+}
+
+.p_magasin {
+    margin-left: 5%;
+}
+
+/* LISTE PRODUITS */
+
+.produits {
+    background-color: #E1C58E;
+}
+
+.hero_produits {
+    background-image: url('../img/boutique_interieur.png');
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: -1px;
+}
+
+.produits_liste_produits {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.produits_liste_produits ul {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.produits_adoption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CE820D;
+}
+
+/* PARRAINAGE */
+
+.parrainage {
+    background-color: #131416;
+    color: white;
+}
+
+.hero_parrainage {
+    background-image: url('../img/ruche_exterieur.png');
+    height: 80vh;
+    background-size: cover;
+    background-position-y: 60%;
+    margin-top: -1px;
+    padding: 0;
+}
+
+.parrainage_general {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.parrainage_liste {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* CONTACT */
+
+.contact {
+    display: flex;
+    color: white;
+}
+
+.contact_gauche {
+    padding-left: 5vw;
+    width: 40%;
+    background-color: #111417;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact_droite {
+    width: 60%;
+    background-color: #6C743C;
+    padding-left: 5vw;
+}
+
+.contact_liste {
+    display: flex;
+}
+
+.contact_rs {
+    display: flex;
+}
+
+.logo_rs {
+    height: 5vh;
+    margin-right: 1vw;
+}
+
+.contact_icone {
+    padding-right: 1vw;
+}
+
+.test {
+    position: absolute;
+    right: -5%;
+    top: 45%;
+    height: 10%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    background-color: #111417;
+    border-radius: 50%;
+}
