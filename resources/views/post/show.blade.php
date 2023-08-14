@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
 
-    <img src="{{ asset('/storage/' . $post->image) }}">
+    <img src="{{ asset('/storage/' . $post->image) }}" alt="">
 
     <div>
         {{ $post->content }}

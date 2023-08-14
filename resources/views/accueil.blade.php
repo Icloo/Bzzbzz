@@ -88,23 +88,24 @@
 
             <div class="accueil_liste_posts">
 
-            <h2 class="centrer">Consultez nos derniers articles</h2>
+                <h2 class="centrer">Consultez nos derniers articles</h2>
 
-            <div class="espaceur"></div>
+                <div class="espaceur"></div>
 
-            @if ($post->isNotEmpty())
-            <ul>
-                @foreach ($post as $post)
-                <li>
-                    <div class="">
-                        <h3 class="">{{ Str::limit($post->title, 30) }}</h3>
-                        <p>{{ Str::limit($post->content, 15) }}</p>
-                        <a href="{{ route('posts.show', $post) }}">Lire l'article</a>
-                    </div>
-                </li>
-                @endforeach
-            </ul>
-            @endif
+                @if ($post->isNotEmpty())
+                <ul>
+                    @foreach ($post as $post)
+                    <li>
+                        <div class="">
+                            <img src="{{ asset('/storage/' . $post->image) }}" alt="miniature article" class="miniature_article">
+                            <h3 class="">{{ Str::limit($post->title, 30) }}</h3>
+                            <p>{{ Str::limit($post->content, 15) }}</p>
+                            <a href="{{ route('posts.show', $post) }}">Lire l'article</a>
+                        </div>
+                    </li>
+                    @endforeach
+                </ul>
+                @endif
 
             </div>
 

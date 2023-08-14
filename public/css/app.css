@@ -148,7 +148,12 @@ nav {
     text-align: center;
 }
 
-
+.miniature_article {
+    height: 50vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* QUI SOMMES NOUS */
 .qsn {

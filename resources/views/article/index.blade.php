@@ -119,7 +119,6 @@
 
             </div>
 
-            <hr>
 
         </li>
         @endif
