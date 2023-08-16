@@ -5,7 +5,7 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="/accueil">
+                    <a href="/">
                         <img src="{{url('/img/logo_bzz.png')}}" style="height: 10vh">
                     </a>
                 </div>
@@ -16,7 +16,7 @@
 
                     <x-nav-link>
 
-                        <a href="/accueil" style="margin-left : -1rem;">
+                        <a href="/" style="margin-left : -1rem;">
                             {{ __('Accueil') }}
                         </a>
 

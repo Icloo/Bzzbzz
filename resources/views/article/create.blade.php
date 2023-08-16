@@ -1,4 +1,5 @@
 <x-app-layout>
+  
 <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Créer une fiche produit') }}
@@ -8,11 +9,11 @@
 
 
 <div>
-  <div class="md:grid md:grid-cols-3 md:gap-6">
-    <div class="md:col-span-1">
+  <div class="">
+    <div class="">
       
     </div>
-    <div class="mt-5 md:col-span-2 md:mt-0">
+    <div class="">
       <form action="{{ route('articles.store') }}" method="POST" enctype="multipart/form-data">
       <div class="my-5">
             @foreach($errors->all() as $error)

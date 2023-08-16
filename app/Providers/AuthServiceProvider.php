@@ -28,11 +28,11 @@ class AuthServiceProvider extends ServiceProvider
         $this->registerPolicies();
 
         Gate::define('update-article', function (User $user, Article $article) {
-            return $user->id == $article->user_id;
+            return $user->isAdmin == 'oui';
         });
 
         Gate::define('destroy-article', function (User $user, Article $article) {
-            return $user->id == $article->user_id;
+            return $user->isAdmin =='oui';
         });
 
         Gate::define('create-article', function (User $user, Article $article) {

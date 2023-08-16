@@ -57,7 +57,8 @@ class ArticleController extends Controller
      */
     public function show(Article $article)
     {
-        return view('article.show', compact('article'));
+        $articles = Article::inRandomOrder()->limit(3)->get();
+        return view('article.show', compact('article', 'articles'));
     }
 
     /**

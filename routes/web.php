@@ -22,7 +22,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/blog', [PostController::class, 'index'])
     ->name('posts.index');
 
-Route::get('/accueil', [FrontController::class, 'welcome']);
+// Route::get('/accueil', [FrontController::class, 'welcome']);
+
+Route::get('/',  [FrontController::class, 'welcome'], function() {
+    return view('/accueil');
+});
 
 
 Route::get('/produits', [ArticleController::class, 'index'])
@@ -45,14 +49,15 @@ Route::get('parrainage', function() {
 //     return view('/accueil');
 // });
 
+Route::resource('posts', PostController::class)
+->except('index');
+
+Route::resource('articles', ArticleController::class)
+-> except('index');
 
 Route::middleware(['auth'])->group(function() {
 
-    Route::resource('posts', PostController::class)
-    ->except('index');
 
-    Route::resource('articles', ArticleController::class)
--> except('index');
 
 
    

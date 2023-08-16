@@ -31,37 +31,62 @@
                 <h2 class="centrer sous_titre">Bien plus qu'une histoire de miel</h2>
             </div>
             <div class="contenu_1">
+                <div class="espaceur"></div>
+                <div class="espaceur"></div>
                 <h2 class="centrer">Services</h2>
                 <div class="liste_service">
                     <div class="service">
-                        <img src="Kih-ja_a_big_rustic_building_that_serves_as_a_store_to_sell_hon_7c7dcea5-aa6a-41ba-adb4-741acdd038ab.png" class="image_service">
-                        <h2>Musée</h2>
+                        <i class="fa-solid fa-book"></i>
+                        <h3>Musée</h3>
                         <p>Description musée</p>
+                        <div class="espaceur"></div>
+                        <div class="btn btn-three">
+                            <span>En savoir +</span>
+                        </div>
                     </div>
                     <div class="service">
-                        <img src="Kih-ja_a_range_of_honey_in_their_premium_jars_for_presentation__4ecd495a-7ee7-4f0c-be0d-7787524da22c.png" class="image_service">
-                        <h2>Boutique</h2>
+                        <i class="fa-solid fa-shop"></i>
+                        <h3>Boutique</h3>
                         <p>Description boutique</p>
+                        <div class="espaceur"></div>
+                        <div class="btn btn-three">
+                            <span>En savoir +</span>
+                        </div>
                     </div>
                     <div class="service">
-                        <img src="Kih-ja_a_beehive_on_the_roof_of_a_building_in_paris_in_the_fore_cca49013-0c90-4887-bcc6-bd05dfc838e4.png" class="image_service">
-                        <h2>Ruche à domicile</h2>
+                        <i class="fa-brands fa-hive fa-rotate-90"></i>
+                        <h3>Ruche à domicile</h3>
                         <p>Description ruche à domicile</p>
+                        <div class="espaceur"></div>
+                        <div class="btn btn-three">
+                            <span>En savoir +</span>
+                        </div>
                     </div>
                     <div class="service">
-                        <img src="Kih-ja_contact_page_for_website_of_a_bee_holding_a_letter_on_le_c1da7c8f-e0ee-4db3-9583-4df23c5ab4c2.png" class="image_service">
-                        <h2>Blog</h2>
+                        <i class="fa-solid fa-newspaper"></i>
+                        <h3>Blog</h3>
                         <p>Description blog</p>
+                        <div class="espaceur"></div>
+                        <div class="btn btn-three">
+                            <span>En savoir +</span>
+                        </div>
                     </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="#5f6f52" fill-opacity="1" d="M0,192L20,181.3C40,171,80,149,120,160C160,171,200,213,240,234.7C280,256,320,256,360,245.3C400,235,440,213,480,213.3C520,213,560,235,600,234.7C640,235,680,213,720,197.3C760,181,800,171,840,192C880,213,920,267,960,250.7C1000,235,1040,149,1080,138.7C1120,128,1160,192,1200,218.7C1240,245,1280,235,1320,213.3C1360,192,1400,160,1420,144L1440,128L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path>
+                <div class="espaceur"></div>
+                <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                            <stop stop-color="rgba(95, 111, 82, 1)" offset="0%"></stop>
+                            <stop stop-color="rgba(17, 20, 23, 1)" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,65L34.3,54.2C68.6,43,137,22,206,17.3C274.3,13,343,26,411,41.2C480,56,549,74,617,69.3C685.7,65,754,39,823,26C891.4,13,960,13,1029,28.2C1097.1,43,1166,74,1234,71.5C1302.9,69,1371,35,1440,26C1508.6,17,1577,35,1646,39C1714.3,43,1783,35,1851,26C1920,17,1989,9,2057,21.7C2125.7,35,2194,69,2263,84.5C2331.4,100,2400,95,2469,95.3C2537.1,95,2606,100,2674,88.8C2742.9,78,2811,52,2880,36.8C2948.6,22,3017,17,3086,28.2C3154.3,39,3223,65,3291,78C3360,91,3429,91,3497,84.5C3565.7,78,3634,65,3703,54.2C3771.4,43,3840,35,3909,45.5C3977.1,56,4046,87,4114,91C4182.9,95,4251,74,4320,54.2C4388.6,35,4457,17,4526,10.8C4594.3,4,4663,9,4731,21.7C4800,35,4869,56,4903,67.2L4937.1,78L4937.1,130L4902.9,130C4868.6,130,4800,130,4731,130C4662.9,130,4594,130,4526,130C4457.1,130,4389,130,4320,130C4251.4,130,4183,130,4114,130C4045.7,130,3977,130,3909,130C3840,130,3771,130,3703,130C3634.3,130,3566,130,3497,130C3428.6,130,3360,130,3291,130C3222.9,130,3154,130,3086,130C3017.1,130,2949,130,2880,130C2811.4,130,2743,130,2674,130C2605.7,130,2537,130,2469,130C2400,130,2331,130,2263,130C2194.3,130,2126,130,2057,130C1988.6,130,1920,130,1851,130C1782.9,130,1714,130,1646,130C1577.1,130,1509,130,1440,130C1371.4,130,1303,130,1234,130C1165.7,130,1097,130,1029,130C960,130,891,130,823,130C754.3,130,686,130,617,130C548.6,130,480,130,411,130C342.9,130,274,130,206,130C137.1,130,69,130,34,130L0,130Z"></path>
                 </svg>
             </div>
 
             <div class="contenu_2">
 
-                <h2 class="centrer">A propos</h2>
+                <h2 class="centrer a_propos">A propos</h2>
 
                 <div class="accueil_a_propos">
                     <div class="accueil_a_propos_gauche">
@@ -69,24 +94,68 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio dolorum quod quis, corporis error repudiandae nulla, modi architecto ratione cupiditate omnis autem iusto totam dicta nihil exercitationem consequatur dolor.</p>
                         <div class="espaceur"></div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio dolorum quod quis, corporis error repudiandae nulla, modi architecto ratione cupiditate omnis autem iusto totam dicta nihil exercitationem consequatur dolor.</p>
+                        <div class="espaceur"></div>
+                        <a href="/qsn">
+                            <div class="btn btn-three">
+                                <span>En savoir +</span>
+                            </div>
+                        </a>
                     </div>
 
+
+
                     <div class="accueil_a_propos_droite">
-                        <img src="{{url('/img/ruche_foret.png')}}" class="accueil_a_propos_photo_principale">
-                        <img src="{{url('/img/ruche_foret.png')}}" class="accueil_a_propos_photo_secondaire">
-                        <img src="{{url('/img/ruche_foret.png')}}" class="accueil_a_propos_photo_secondaire_2">
-                        <img src="{{url('/img/ruche_foret.png')}}" class="accueil_a_propos_photo_secondaire_3">
+                        <div class="accueil_a_propos_photo_principale">
+                            <div class="polaroids">
+                                <a>
+                                    <img src="{{url('/img/abeille_close.jpg')}}" class="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="accueil_a_propos_photo_secondaire">
+                            <div class="polaroids">
+                                <a>
+                                    <img src="{{url('/img/musee.png')}}" class="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="accueil_a_propos_photo_secondaire_2">
+                            <div class="polaroids">
+                                <a class="zebi">
+                                    <img src="{{url('/img/miel_bocaux.png')}}" class="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="accueil_a_propos_photo_secondaire_3">
+                            <div class="polaroids">
+                                <a>
+                                    <img src="{{url('/img/formation.jpg')}}" class="">
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#5f6f52" fill-opacity="1" d="M0,192L20,181.3C40,171,80,149,120,160C160,171,200,213,240,234.7C280,256,320,256,360,245.3C400,235,440,213,480,213.3C520,213,560,235,600,234.7C640,235,680,213,720,197.3C760,181,800,171,840,192C880,213,920,267,960,250.7C1000,235,1040,149,1080,138.7C1120,128,1160,192,1200,218.7C1240,245,1280,235,1320,213.3C1360,192,1400,160,1420,144L1440,128L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"></path>
-            </svg>
 
-            <div class="espaceur"></div>
 
             <div class="accueil_liste_posts">
+
+
+                <svg class="vague" id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                            <stop stop-color="rgba(95, 111, 82, 1)" offset="0%"></stop>
+                            <stop stop-color="rgba(17, 20, 23, 1)" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,65L34.3,54.2C68.6,43,137,22,206,17.3C274.3,13,343,26,411,41.2C480,56,549,74,617,69.3C685.7,65,754,39,823,26C891.4,13,960,13,1029,28.2C1097.1,43,1166,74,1234,71.5C1302.9,69,1371,35,1440,26C1508.6,17,1577,35,1646,39C1714.3,43,1783,35,1851,26C1920,17,1989,9,2057,21.7C2125.7,35,2194,69,2263,84.5C2331.4,100,2400,95,2469,95.3C2537.1,95,2606,100,2674,88.8C2742.9,78,2811,52,2880,36.8C2948.6,22,3017,17,3086,28.2C3154.3,39,3223,65,3291,78C3360,91,3429,91,3497,84.5C3565.7,78,3634,65,3703,54.2C3771.4,43,3840,35,3909,45.5C3977.1,56,4046,87,4114,91C4182.9,95,4251,74,4320,54.2C4388.6,35,4457,17,4526,10.8C4594.3,4,4663,9,4731,21.7C4800,35,4869,56,4903,67.2L4937.1,78L4937.1,130L4902.9,130C4868.6,130,4800,130,4731,130C4662.9,130,4594,130,4526,130C4457.1,130,4389,130,4320,130C4251.4,130,4183,130,4114,130C4045.7,130,3977,130,3909,130C3840,130,3771,130,3703,130C3634.3,130,3566,130,3497,130C3428.6,130,3360,130,3291,130C3222.9,130,3154,130,3086,130C3017.1,130,2949,130,2880,130C2811.4,130,2743,130,2674,130C2605.7,130,2537,130,2469,130C2400,130,2331,130,2263,130C2194.3,130,2126,130,2057,130C1988.6,130,1920,130,1851,130C1782.9,130,1714,130,1646,130C1577.1,130,1509,130,1440,130C1371.4,130,1303,130,1234,130C1165.7,130,1097,130,1029,130C960,130,891,130,823,130C754.3,130,686,130,617,130C548.6,130,480,130,411,130C342.9,130,274,130,206,130C137.1,130,69,130,34,130L0,130Z"></path>
+                </svg>
+
+                <div class="espaceur"></div>
+
+
 
                 <h2 class="centrer">Consultez nos derniers articles</h2>
 
@@ -96,17 +165,45 @@
                 <ul>
                     @foreach ($post as $post)
                     <li>
-                        <div class="">
-                            <img src="{{ asset('/storage/' . $post->image) }}" alt="miniature article" class="miniature_article">
-                            <h3 class="">{{ Str::limit($post->title, 30) }}</h3>
-                            <p>{{ Str::limit($post->content, 15) }}</p>
-                            <a href="{{ route('posts.show', $post) }}">Lire l'article</a>
-                        </div>
+                        <article class="card">
+                            <img class="card__background" src="{{ asset('/storage/' . $post->image) }}" alt="photo actualité" width="1920" height="2193" />
+                            <div class="card__content | flow">
+                                <div class="card__content--container | flow">
+                                    <h2 class="card__title card_h2">{{ Str::limit($post->title, 15)}}</h2>
+                                    <p class="card__description card_p">
+                                        {{ Str::limit($post->content, 75)}}
+                                    </p>
+                                </div>
+                                <a href="{{ route('posts.show', $post)}}">
+                                    <button class="card__button">Lire l'article</button>
+                                </a>
+                            </div>
+                        </article>
                     </li>
                     @endforeach
                 </ul>
                 @endif
 
+                <div class="espaceur"></div>
+                <div class="espaceur"></div>
+                <div class="espaceur"></div>
+
+            </div>
+
+
+            <div class="accueil_contact">
+                <div class="accueil_contact_texte">
+                    <div class="espaceur"></div>
+                    <h2>Une question ? Une suggestion ?</h2>
+                    <div class="espaceur"></div>
+                    <p>Votre avis nous interesse !</p>
+                    <div class="espaceur"></div>
+                    <a href="/contact">
+                        <div class="btn btn-three accueil_bouton_contact">
+                            <span>Nous contacter</span>
+                        </div>
+                    </a>
+                </div>
             </div>
 
 

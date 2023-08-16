@@ -1,14 +1,28 @@
 <x-app-layout>
-    <x-slot name="header">
-        <h2>
-            {{ $post->title }}
-        </h2>
-    </x-slot>
 
-    <img src="{{ asset('/storage/' . $post->image) }}" alt="">
+    <div class="post">
 
-    <div>
-        {{ $post->content }}
+    <div class="espaceur"></div>
+    <div class="espaceur"></div>
+
+    <div class="post_ensemble">
+    
+        <h2 class="centrer"> {{ $post->title }}</h2>
+
+        <div class="espaceur"></div>
+
+        <img src="{{ asset('/storage/' . $post->image) }}" alt="miniature article" class="miniature_article">
+
+        <div class="espaceur"></div>
+
+        <div class="post_contenu">
+            {{ $post->content }}
+        </div>
+
+        </div>
+
+        <div class="espaceur"></div>
+        <div class="espaceur"></div>
+
     </div>
-
 </x-app-layout>
