@@ -107,28 +107,28 @@
                     <div class="accueil_a_propos_droite">
                         <div class="accueil_a_propos_photo_principale">
                             <div class="polaroids">
-                                <a>
+                                <a title="Ruche">
                                     <img src="{{url('/img/abeille_close.jpg')}}" class="">
                                 </a>
                             </div>
                         </div>
                         <div class="accueil_a_propos_photo_secondaire">
                             <div class="polaroids">
-                                <a>
+                                <a title="Musée">
                                     <img src="{{url('/img/musee.png')}}" class="">
                                 </a>
                             </div>
                         </div>
                         <div class="accueil_a_propos_photo_secondaire_2">
                             <div class="polaroids">
-                                <a class="zebi">
+                                <a title="Miel">
                                     <img src="{{url('/img/miel_bocaux.png')}}" class="">
                                 </a>
                             </div>
                         </div>
                         <div class="accueil_a_propos_photo_secondaire_3">
                             <div class="polaroids">
-                                <a>
+                                <a title="Formation">
                                     <img src="{{url('/img/formation.jpg')}}" class="">
                                 </a>
                             </div>
@@ -136,14 +136,15 @@
 
                     </div>
                 </div>
-
+                <div class="espaceur"></div>
+                <div class="espaceur"></div>
             </div>
 
 
             <div class="accueil_liste_posts">
 
-
-                <svg class="vague" id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <svg class="vague" id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1" xmlns="http://www.w3.org/2000/svg">
+               
                     <defs>
                         <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
                             <stop stop-color="rgba(95, 111, 82, 1)" offset="0%"></stop>
