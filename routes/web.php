@@ -22,12 +22,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/blog', [PostController::class, 'index'])
     ->name('posts.index');
 
-// Route::get('/accueil', [FrontController::class, 'welcome']);
-
 Route::get('/',  [FrontController::class, 'welcome'], function() {
     return view('/accueil');
 });
 
+Route::get('/admin', function() {
+    return view('auth.login');
+});
+
+Route::get('/registeradmin', function() {
+    return view('auth.register');
+});
 
 Route::get('/produits', [ArticleController::class, 'index'])
 ->name('articles.index');
@@ -35,7 +40,6 @@ Route::get('/produits', [ArticleController::class, 'index'])
 Route::get('qsn', function() {
     return view('/qsn');
 });
-
 
 Route::get('contact', function() {
     return view('/contact');
@@ -45,10 +49,6 @@ Route::get('parrainage', function() {
     return view('/parrainage');
 });
 
-// Route::get('accueil', function() {
-//     return view('/accueil');
-// });
-
 Route::resource('posts', PostController::class)
 ->except('index');
 
@@ -57,17 +57,8 @@ Route::resource('articles', ArticleController::class)
 
 Route::middleware(['auth'])->group(function() {
 
-
-
-
-   
-
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-
-
-
 });
-
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

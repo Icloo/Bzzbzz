@@ -66,16 +66,19 @@
                 </div>
               </div>
             </div>
-          </div>
-
+            <div>
+            <label class="block text-sm font-medium leading-6 text-gray-900">Catégorie</label>
           <select name="articlecategory" id="articlecategory">
             @foreach ($articlecategories as $articlecategory)
                 <option value="{{ $articlecategory->id }}">{{ $articlecategory->name }}</option>
             @endforeach
         </select>
+        </div>
+          </div>
+
 
           <div class="bg-gray-50 px-4 py-3 text-center sm:px-6">
-          <button type="submit" class="inline-flex justify-center rounded-md">Save</button>
+          <button type="submit" class="inline-flex justify-center rounded-md">Publier</button>
           </div>
         </div>
       </form>

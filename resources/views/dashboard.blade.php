@@ -27,14 +27,16 @@
                 @foreach ($articles as $article)
                 <div class="dashboard_modif">
                     <a href="{{ route('articles.edit', $article) }}" class="editer">Editer {{ $article->title }}</a>
-                    <a href="#" class="supprimer" onclick="event.preventDefault
-                        document.getElementById('destroy-article-form').submit();
-                    ">Supprimer {{ $article->title }}
+
+                    <div class="supprimer">
+
                         <form action="{{ route('articles.destroy',$article)}}" method="post" id="destroy-article-form">
                             @csrf
                             @method('delete')
+                            <button type="submit">Supprimer {{ $article->title }} </button>
                         </form>
-                    </a>
+
+                    </div>
                 </div>
                 @endforeach
             </div>
@@ -47,14 +49,17 @@
                 @foreach ($posts as $post)
                 <div class="dashboard_modif">
                     <a href="{{ route('posts.edit', $post) }}" class="editer">Editer {{ $post->title }}</a>
-                    <a href="#" class="supprimer" onclick="event.preventDefault
-                        document.getElementById('destroy-post-form').submit();
-                    ">Supprimer {{ $post->title }}
+
+                    <div class="supprimer">
+
                         <form action="{{ route('posts.destroy',$post)}}" method="post" id="destroy-post-form">
                             @csrf
                             @method('delete')
+                            <button type="submit">Supprimer {{ $post->title }} </button>
                         </form>
-                    </a>
+
+                    </div>
+
                 </div>
                 @endforeach
             </div>

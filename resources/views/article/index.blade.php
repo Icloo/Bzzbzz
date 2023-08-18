@@ -18,11 +18,8 @@
       <ul>
         @foreach($articles as $article)
 
-
-
         @if ($article->articlecategory_id == '1')
         <li>
-
 
           <article class="card">
             <img class="card__background" src="{{ asset('/storage/' . $article->image) }}" alt="photo produit" width="1920" height="2193" />
@@ -39,11 +36,8 @@
             </div>
           </article>
 
-
-
         </li>
         @endif
-
 
         @endforeach
       </ul>

@@ -30,12 +30,8 @@
             $categ = $article->articlecategory_id;
             $name = $article->title;
         ?>
-
             <ul>
                 @foreach($articles as $article)
-
-
-
                 @if ($article->articlecategory_id == $categ && $article->title != $name )
                 <li>
 
@@ -54,13 +50,8 @@
                             </a>
                         </div>
                     </article>
-
-
-
                 </li>
                 @endif
-
-
                 @endforeach
             </ul>
 

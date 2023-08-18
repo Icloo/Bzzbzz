@@ -40,36 +40,44 @@
                         <h3>Musée</h3>
                         <p>Description musée</p>
                         <div class="espaceur"></div>
-                        <div class="btn btn-three">
-                            <span>En savoir +</span>
-                        </div>
+                        <a href="/qsn">
+                            <div class="btn btn-three">
+                                <span>En savoir +</span>
+                            </div>
+                        </a>
                     </div>
                     <div class="service">
                         <i class="fa-solid fa-shop"></i>
                         <h3>Boutique</h3>
                         <p>Description boutique</p>
                         <div class="espaceur"></div>
-                        <div class="btn btn-three">
-                            <span>En savoir +</span>
-                        </div>
+                        <a href="/produits">
+                            <div class="btn btn-three">
+                                <span>En savoir +</span>
+                            </div>
+                        </a>
                     </div>
                     <div class="service">
                         <i class="fa-brands fa-hive fa-rotate-90"></i>
                         <h3>Ruche à domicile</h3>
                         <p>Description ruche à domicile</p>
                         <div class="espaceur"></div>
-                        <div class="btn btn-three">
-                            <span>En savoir +</span>
-                        </div>
+                        <a href="/parrainage">
+                            <div class="btn btn-three">
+                                <span>En savoir +</span>
+                            </div>
+                        </a>
                     </div>
                     <div class="service">
                         <i class="fa-solid fa-newspaper"></i>
                         <h3>Blog</h3>
                         <p>Description blog</p>
                         <div class="espaceur"></div>
-                        <div class="btn btn-three">
-                            <span>En savoir +</span>
-                        </div>
+                        <a href="/blog">
+                            <div class="btn btn-three">
+                                <span>En savoir +</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="espaceur"></div>
@@ -143,8 +151,8 @@
 
             <div class="accueil_liste_posts">
 
-            <svg class="vague" id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1" xmlns="http://www.w3.org/2000/svg">
-               
+                <svg class="vague" id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
                     <defs>
                         <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
                             <stop stop-color="rgba(95, 111, 82, 1)" offset="0%"></stop>

@@ -106,7 +106,6 @@ class ArticleController extends Controller
             abort(403);
         }
 
-
         $article->delete();
 
         return redirect()->route('dashboard')->with('success', 'Votre produit a bien été supprimé');
