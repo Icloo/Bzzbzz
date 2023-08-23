@@ -4,7 +4,7 @@
         <div class="espaceur"></div>
         <div class="espaceur"></div>
 
-        <div class="fiche">
+        <div class="fiche testanim_service_1 animate">
             <img src="{{ asset('/storage/' . $article->image) }}" alt="miniature article" class="miniature_fiche">
 
             <div class="fiche_contenu">
@@ -24,7 +24,7 @@
 
         <div class="espaceur"></div>
 
-        <section class="produits_liste_produits">
+        <section class="produits_liste_produits testanim_service_2">
 
         <?php
             $categ = $article->articlecategory_id;

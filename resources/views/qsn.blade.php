@@ -86,10 +86,10 @@
                     <div class="espaceur"></div>
 
                     <div class="qsn_famille_liste">
-                        <img src="{{url('/img/michel_bzz.png')}}" class="qsn_famille_selfie imgBorder">
-                        <img src="{{url('/img/petit_michel_bzz.png')}}" class="qsn_famille_selfie imgBorder">
-                        <img src="{{url('/img/grand_pere_michel_bzz.png')}}" class="qsn_famille_selfie imgBorder">
-                        <img src="{{url('/img/femme_michel_bzz.png')}}" class="qsn_famille_selfie imgBorder">
+                        <img src="{{url('/img/michel_bzz.png')}}" class="qsn_famille_selfie imgBorder testanim_service_1">
+                        <img src="{{url('/img/petit_michel_bzz.png')}}" class="qsn_famille_selfie imgBorder testanim_service_2">
+                        <img src="{{url('/img/grand_pere_michel_bzz.png')}}" class="qsn_famille_selfie imgBorder testanim_service_3">
+                        <img src="{{url('/img/femme_michel_bzz.png')}}" class="qsn_famille_selfie imgBorder testanim_service_4">
                     </div>
 
                     <div class="espaceur"></div>
@@ -112,7 +112,7 @@
 
                 <div class="qsn_magasin">
                     <div class="qsn_magasin_gauche">
-                        <img src="{{url('/img/boutique_interieur.png')}}">
+                        <img src="{{url('/img/boutique_interieur.png')}}" alt="image de l'intérieur de la boutique">
                     </div>
                     <div class="qsn_magasin_droite">
                         <div class="espaceur"></div>

@@ -35,7 +35,7 @@
                 <div class="espaceur"></div>
                 <h2 class="centrer">Services</h2>
                 <div class="liste_service">
-                    <div class="service">
+                    <div class="service testanim_service_1">
                         <i class="fa-solid fa-book"></i>
                         <h3>Musée</h3>
                         <p>Description musée</p>
@@ -46,7 +46,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="service">
+                    <div class="service testanim_service_2">
                         <i class="fa-solid fa-shop"></i>
                         <h3>Boutique</h3>
                         <p>Description boutique</p>
@@ -57,7 +57,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="service">
+                    <div class="service testanim_service_3">
                         <i class="fa-brands fa-hive fa-rotate-90"></i>
                         <h3>Ruche à domicile</h3>
                         <p>Description ruche à domicile</p>
@@ -68,7 +68,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="service">
+                    <div class="service testanim_service_4">
                         <i class="fa-solid fa-newspaper"></i>
                         <h3>Blog</h3>
                         <p>Description blog</p>
@@ -95,9 +95,9 @@
             <div class="contenu_2">
 
                 <h2 class="centrer a_propos">A propos</h2>
-
+                <div class="espaceur"></div>
                 <div class="accueil_a_propos">
-                    <div class="accueil_a_propos_gauche">
+                    <div class="accueil_a_propos_gauche testanim">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio dolorum quod quis, corporis error repudiandae nulla, modi architecto ratione cupiditate omnis autem iusto totam dicta nihil exercitationem consequatur dolor.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio dolorum quod quis, corporis error repudiandae nulla, modi architecto ratione cupiditate omnis autem iusto totam dicta nihil exercitationem consequatur dolor.</p>
                         <div class="espaceur"></div>
@@ -112,7 +112,7 @@
 
 
 
-                    <div class="accueil_a_propos_droite">
+                    <div class="accueil_a_propos_droite testanim2">
                         <div class="accueil_a_propos_photo_principale">
                             <div class="polaroids">
                                 <a title="Ruche">

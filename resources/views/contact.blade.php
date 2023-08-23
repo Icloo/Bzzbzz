@@ -31,41 +31,44 @@
                 <div class="espaceur"></div>
                 <div class="espaceur"></div>
 
-                <h2>Restons en contact</h2>
+                <div class="contact_gauche_interieur">
 
-                <div class="espaceur"></div>
-                <div class="espaceur"></div>
+                    <h2>Restons en contact</h2>
 
-                <div class="contact_liste">
-                    <img src="{{url('/img/Icon_Email.png')}}" class="contact_icone">
-                    <p>lacitedelabeille@gmail.com</p>
+                    <div class="espaceur"></div>
+                    <div class="espaceur"></div>
+
+                    <div class="contact_liste">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>lacitedelabeille@gmail.com</p>
+                    </div>
+
+                    <div class="espaceur"></div>
+
+                    <div class="contact_liste">
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <p>Champet, 63250 Viscomtat</p>
+                    </div>
+
+                    <div class="espaceur"></div>
+
+                    <div class="contact_liste">
+                        <i class="fa-solid fa-phone"></i>
+
+                        <p>04 73 51 91 13</p>
+                    </div>
+
+                    <div class="espaceur"></div>
+
+                    <div class="contact_rs">
+                        <img src="{{url('/img/instagram.webp')}}" class="logo_rs">
+                        <img src="{{url('/img/x.png')}}" class="logo_rs">
+                        <img src="{{url('/img/facebook.png')}}" class="logo_rs">
+                    </div>
+
                 </div>
 
-                <div class="espaceur"></div>
-
-                <div class="contact_liste">
-                    <img src="{{url('/img/Icon_Loc.png')}}" class="contact_icone">
-                    <p>10 rue de la forêt 63666</p>
-                </div>
-
-                <div class="espaceur"></div>
-
-                <div class="contact_liste">
-                    <img src="{{url('/img/Icon_Tel.png')}}" class="contact_icone">
-                    <p>06 94 23 59 20</p>
-                </div>
-
-                <div class="espaceur"></div>
-
-                <div class="contact_rs">
-                    <img src="{{url('/img/instagram.webp')}}" class="logo_rs">
-                    <img src="{{url('/img/x.png')}}" class="logo_rs">
-                    <img src="{{url('/img/facebook.png')}}" class="logo_rs">
-                </div>
-
-                <div class="test">
-                    ----->
-                </div>
             </div>
 
 
@@ -74,58 +77,124 @@
                 <div class="espaceur"></div>
                 <div class="espaceur"></div>
 
-                <h2> Programmer un rappel</h2>
+                <div class="contact_droite_interieur">
 
-                <div class="espaceur"></div>
+                    <!--  -->
 
-                <form>
+                    <div class="form">
+                        <div class="title">Programmer un rappel</div>
 
-                    <div>
-                        <label for="nom_prenom">Nom et prénom</label>
-                        <br>
-                        <input type="text" id="nom_prenom" name="nom_prenom">
-                    </div>
-                    <div>
-                        <label for="tel">Numéro de téléphone</label>
-                        <br>
-                        <input type="tel" id="tel" name="tel">
-                    </div>
-                    <div>
-                        <label for="mail">Adresse mail</label>
-                        <br>
-                        <input type="email" id="mail" name="mail">
-                    </div>
-                    <label for="raison">Raison de l'appel</label>
+                        <div class="input-container ic1">
+                            <input id="nom_prenom" name="nom_prenom" class="input" type="text" placeholder=" " />
+                            <div class="cut"></div>
+                            <label for="nom_prenom" class="placeholder">Nom</label>
+                        </div>
+                        <div class="input-container ic2">
+                            <input id="tel" name="tel" class="input" type="tel" placeholder=" " />
+                            <div class="cut"></div>
+                            <label for="tel" class="placeholder">Téléphone</label>
+                        </div>
+                        <div class="input-container ic2">
+                            <input id="mail" class="input" type="email" placeholder=" " />
+                            <div class="cut cut-short"></div>
+                            <label for="mail" class="placeholder">Email</>
+                        </div>
 
-                    <div>
-                        <input type="checkbox" id="location" name="location">
-                        <label for="location">Location de ruches</label>
+
+
+
+                        <!-- <label for="raison">Raison de l'appel</label>
+
+                        <div>
+                            <input type="checkbox" id="location" name="location">
+                            <label for="location">Location de ruches</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="visite" name="visite">
+                            <label for="visite">Visite du musée</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="question" name="question">
+                            <label for="question">Question/suggestion sur la boutique</label>
+                        </div> -->
+
+
+
+                        <div class="input-container ic2">
+                            <input id="message" class="input" type="textarea" placeholder=" " />
+                            <div class="cut"></div>
+                            <label for="message" class="placeholder">Message</>
+                        </div>
+
+
+
+                        <div class="espaceur"></div>
+
+                        <div class="btn btn-three contact_bouton">
+                            <input type="submit" value="Envoyer">
+                        </div>
+
                     </div>
 
-                    <div>
-                        <input type="checkbox" id="visite" name="visite">
-                        <label for="visite">Visite du musée</label>
-                    </div>
+                    <!--  -->
 
-                    <div>
-                        <input type="checkbox" id="question" name="question">
-                        <label for="question">Question/suggestion sur la boutique</label>
-                    </div>
-                    <div>
-                        <label for="message">Votre message</label>
-                        <br>
-                        <input type="textarea" id="message" name="message">
-                    </div>
+                    <!-- <h2> Programmer un rappel</h2>
 
-                    <div class="espaceur"></div>
-                    <div class="btn btn-three contact_bouton">
-                    <input type="submit" value="Envoyer">
-                    </div>
-                    
-                            
-                       
+                        <div class="espaceur"></div>
 
-                </form>
+                        <form>
+
+                            <div>
+                                <label for="nom_prenom">Nom et prénom</label>
+                                <br>
+                                <input type="text" id="nom_prenom" name="nom_prenom">
+                            </div>
+                            <div>
+                                <label for="tel">Numéro de téléphone</label>
+                                <br>
+                                <input type="tel" id="tel" name="tel">
+                            </div>
+                            <div>
+                                <label for="mail">Adresse mail</label>
+                                <br>
+                                <input type="email" id="mail" name="mail">
+                            </div>
+                            <label for="raison">Raison de l'appel</label>
+
+                            <div>
+                                <input type="checkbox" id="location" name="location">
+                                <label for="location">Location de ruches</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="visite" name="visite">
+                                <label for="visite">Visite du musée</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="question" name="question">
+                                <label for="question">Question/suggestion sur la boutique</label>
+                            </div>
+                            <div>
+                                <label for="message">Votre message</label>
+                                <br>
+                                <input type="textarea" id="message" name="message">
+                            </div>
+
+                            <div class="espaceur"></div>
+                            <div class="btn btn-three contact_bouton">
+                                <input type="submit" value="Envoyer">
+                            </div>
+
+
+
+
+                        </form> -->
+
+
+                </div>
 
                 <div class="espaceur"></div>
             </div>

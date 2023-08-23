@@ -6,7 +6,7 @@
         <div class="espaceur"></div>
 
 
-        <div class="liste_posts">
+        <div class="liste_posts testanim_service_1 animate">
 
             <h2 class="centrer">L'actualité de la cité des abeilles</h2>
 

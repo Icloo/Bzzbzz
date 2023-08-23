@@ -5,7 +5,7 @@
     <div class="espaceur"></div>
     <div class="espaceur"></div>
 
-    <div class="post_ensemble">
+    <div class="post_ensemble testanim_service_1 animate">
     
         <h2 class="centrer"> {{ $post->title }}</h2>
 

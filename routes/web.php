@@ -6,6 +6,7 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProfileController;
+use App\Models\Article;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +22,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/blog', [PostController::class, 'index'])
     ->name('posts.index');
+
+    Route::get('/boutique', [ArticleController::class, 'index'])
+    ->name('article.index');
 
 Route::get('/',  [FrontController::class, 'welcome'], function() {
     return view('/accueil');
