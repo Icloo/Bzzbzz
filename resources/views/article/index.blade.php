@@ -87,7 +87,7 @@
             <img class="card__background" src="{{ asset('/storage/' . $article->image) }}" alt="photo produit" width="1920" height="2193" />
             <div class="card__content | flow">
               <div class="card__content--container | flow">
-                <h2 class="card__title card_h2">{{$article->title}}</h2>
+                <h2 class="card__title card_h2">{{ Str::limit($article->title, 10)}}</h2>
                 <p class="card__description card_p">
                   {{ Str::limit($article->content, 75)}}
                 </p>

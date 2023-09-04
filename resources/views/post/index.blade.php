@@ -27,7 +27,7 @@
                         <img class="card__background" src="{{ asset('/storage/' . $post->image) }}" alt="photo actualité" width="1920" height="2193" />
                         <div class="card__content | flow">
                             <div class="card__content--container | flow">
-                                <h2 class="card__title card_h2">{{ Str::limit($post->title, 15)}}</h2>
+                                <h2 class="card__title card_h2">{{ Str::limit($post->title, 10)}}</h2>
                                 <p class="card__description card_p">
                                     {{ Str::limit($post->content, 75)}}
                                 </p>

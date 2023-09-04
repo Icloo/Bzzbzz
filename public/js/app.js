@@ -105,3 +105,6 @@ function animateOnScroll6() {
 }
 
 window.addEventListener('scroll', animateOnScroll6);
+
+
+//////////////////////////////////////////////////////////////

@@ -22,7 +22,7 @@ class StoreArticleRequest extends FormRequest
     public function rules(): array
     {
         if (request()->routeIs('articles.store')) {
-            $imageRule = 'image|required';
+            $imageRule = 'image|required|max:1000';
         } elseif (request()->routeIs('articles.update')) {
             $imageRule = 'image|sometimes';
         }
