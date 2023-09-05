@@ -23,7 +23,7 @@ class StorePostRequest extends FormRequest
     {
 
         if (request()->routeIs('posts.store')) {
-            $imageRules = 'image|required|max:1000';
+            $imageRules = 'image|required|max:10000';
         } elseif (request()->routeIs('posts.update')) {
             $imageRules = 'image|sometimes';
         }
